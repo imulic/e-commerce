@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "main": "dist/server.js",
   "license": "MIT",
+  "engines" : { 
+    "npm" : ">=10.0.0"
+  },
   "scripts": {
     "dev": "cross-env PAYLOAD_CONFIG_PATH=src/payload/payload.config.ts nodemon",
     "stripe:webhooks": "stripe listen --forward-to localhost:8000/stripe/webhooks",
