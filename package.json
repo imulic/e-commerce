@@ -6,7 +6,7 @@
   "license": "MIT",
   "engines" : { 
     "npm" : ">=10.0.0",
-    "node": "^18.17.0 || >=20.5.0"
+    "node": ">=21.5.0"
   },
   "scripts": {
     "dev": "cross-env PAYLOAD_CONFIG_PATH=src/payload/payload.config.ts nodemon",
